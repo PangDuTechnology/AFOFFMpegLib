@@ -1109,7 +1109,14 @@
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libpostproc",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavfilter",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavdevice",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavformat",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libswscale",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavcodec",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libswresample",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavutil",
 				);
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1152,7 +1159,14 @@
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libpostproc",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavfilter",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavdevice",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavformat",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libswscale",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavcodec",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libswresample",
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include/libavutil",
 				);
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
