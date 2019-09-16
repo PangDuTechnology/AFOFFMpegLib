@@ -15,9 +15,9 @@ FOUNDATION_EXPORT double AFOFFMpegLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char AFOFFMpegLibVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AFOFFMpegLib/PublicHeader.h>
-#import <AFOFFMpegLib/libavcodec/avcodec.h>
-#import <AFOFFMpegLib/libavformat/avformat.h>
-#import <AFOFFMpegLib/libswscale/swscale.h>
-#import <AFOFFMpegLib/libavutil/imgutils.h>
-#import <AFOFFMpegLib/libswresample/swresample.h>
+#import <AFOFFMpegLib/avcodec.h>
+#import <AFOFFMpegLib/avformat.h>
+#import <AFOFFMpegLib/swscale.h>
+#import <AFOFFMpegLib/imgutils.h>
+#import <AFOFFMpegLib/swresample.h>
 
