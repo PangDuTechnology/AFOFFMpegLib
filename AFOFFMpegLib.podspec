@@ -134,8 +134,9 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
    s.requires_arc = true
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h",
-                                          "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/libyuv/include/**/*.h"         
-                  "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/lib/**','$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/libyuv/lib/**'"
+
+   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/**/include/**/*.h",
+
+                  "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/**/lib/**'"
   }
 end
