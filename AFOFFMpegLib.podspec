@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFOFFMpegLib/FFmpeg/include/**/*.h"
+  s.source_files  = "AFOFFMpegLib/FFmpeg/include/**/*.h","AFOFFMpegLib/libyuv/include/**/*.h"
   #s.exclude_files = "AFOFFMpegLib/*.{h,m}"
 
   #s.public_header_files = "AFOFFMpegLib/**/*.h"
@@ -102,11 +102,17 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.header_mappings_dir = "AFOFFMpegLib/FFmpeg/include"
+  s.header_mappings_dir = "AFOFFMpegLib/FFmpeg/include","AFOFFMpegLib/libyuv/include"
 
-  s.preserve_paths = "AFOFFMpegLib/FFmpeg/**/*.h"
+  s.preserve_paths = "AFOFFMpegLib/FFmpeg/**/*.h","AFOFFMpegLib/libyuv/**/*.h"
 
-  s.vendored_libraries = "AFOFFMpegLib/FFmpeg/lib/libavcodec.a","AFOFFMpegLib/FFmpeg/lib/libavformat.a","AFOFFMpegLib/FFmpeg/lib/libavutil.a","AFOFFMpegLib/FFmpeg/lib/libswscale.a","AFOFFMpegLib/FFmpeg/lib/libswresample.a","AFOFFMpegLib/x264/lib/libx264.a"
+  s.vendored_libraries = "AFOFFMpegLib/FFmpeg/lib/libavcodec.a",
+                          "AFOFFMpegLib/FFmpeg/lib/libavformat.a",
+                          "AFOFFMpegLib/FFmpeg/lib/libavutil.a",
+                          "AFOFFMpegLib/FFmpeg/lib/libswscale.a",
+                          "AFOFFMpegLib/FFmpeg/lib/libswresample.a",
+                          "AFOFFMpegLib/x264/lib/libx264.a",
+                          "AFOFFMpegLib/libyuv/lib/libyuv.a"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -128,7 +134,8 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
    s.requires_arc = true
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h" ,
-                  "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/lib/**'"
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h",
+                                          "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/libyuv/include/**/*.h"         
+                  "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/lib/**','$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/libyuv/lib/**'"
   }
 end
