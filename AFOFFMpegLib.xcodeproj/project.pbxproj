@@ -26,28 +26,6 @@
 		247A7410232FA5F600883A89 /* x264_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A740C232FA5F600883A89 /* x264_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		247A7411232FA5F600883A89 /* x264.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A740D232FA5F600883A89 /* x264.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		247A7412232FA5F600883A89 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 247A740F232FA5F600883A89 /* libx264.a */; };
-		24BBDB372333678D006F920E /* libyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB1F2333678C006F920E /* libyuv.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB382333678D006F920E /* scale_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB212333678C006F920E /* scale_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB392333678D006F920E /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB222333678C006F920E /* scale.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB3A2333678D006F920E /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB232333678C006F920E /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB3B2333678D006F920E /* cpu_id.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB242333678C006F920E /* cpu_id.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB3C2333678D006F920E /* video_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB252333678C006F920E /* video_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB3D2333678D006F920E /* compare_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB262333678C006F920E /* compare_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB3E2333678D006F920E /* mjpeg_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB272333678C006F920E /* mjpeg_decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB3F2333678D006F920E /* rotate_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB282333678C006F920E /* rotate_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB402333678D006F920E /* planar_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB292333678C006F920E /* planar_functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB412333678D006F920E /* scale_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB2A2333678C006F920E /* scale_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB422333678D006F920E /* compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB2B2333678C006F920E /* compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB432333678D006F920E /* convert_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB2C2333678C006F920E /* convert_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB442333678D006F920E /* rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB2D2333678C006F920E /* rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB452333678D006F920E /* convert_from_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB2E2333678C006F920E /* convert_from_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB462333678D006F920E /* basic_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB2F2333678C006F920E /* basic_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB472333678D006F920E /* convert_from.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB302333678C006F920E /* convert_from.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB482333678D006F920E /* convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB312333678C006F920E /* convert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB492333678D006F920E /* rotate_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB322333678C006F920E /* rotate_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB4A2333678D006F920E /* macros_msa.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB332333678C006F920E /* macros_msa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB4B2333678D006F920E /* row.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB342333678C006F920E /* row.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BBDB4C2333678D006F920E /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BBDB362333678C006F920E /* libyuv.a */; };
 		24BBDBD8233368D8006F920E /* hwcontext.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB5B233368D7006F920E /* hwcontext.h */; };
 		24BBDBD9233368D8006F920E /* time.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB5C233368D7006F920E /* time.h */; };
 		24BBDBDA233368D8006F920E /* hwcontext_cuda.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BBDB5D233368D7006F920E /* hwcontext_cuda.h */; };
@@ -181,28 +159,6 @@
 		247A740C232FA5F600883A89 /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
 		247A740D232FA5F600883A89 /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
 		247A740F232FA5F600883A89 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
-		24BBDB1F2333678C006F920E /* libyuv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libyuv.h; sourceTree = "<group>"; };
-		24BBDB212333678C006F920E /* scale_row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_row.h; sourceTree = "<group>"; };
-		24BBDB222333678C006F920E /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
-		24BBDB232333678C006F920E /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
-		24BBDB242333678C006F920E /* cpu_id.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_id.h; sourceTree = "<group>"; };
-		24BBDB252333678C006F920E /* video_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video_common.h; sourceTree = "<group>"; };
-		24BBDB262333678C006F920E /* compare_row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare_row.h; sourceTree = "<group>"; };
-		24BBDB272333678C006F920E /* mjpeg_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mjpeg_decoder.h; sourceTree = "<group>"; };
-		24BBDB282333678C006F920E /* rotate_row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotate_row.h; sourceTree = "<group>"; };
-		24BBDB292333678C006F920E /* planar_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = planar_functions.h; sourceTree = "<group>"; };
-		24BBDB2A2333678C006F920E /* scale_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_argb.h; sourceTree = "<group>"; };
-		24BBDB2B2333678C006F920E /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
-		24BBDB2C2333678C006F920E /* convert_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert_argb.h; sourceTree = "<group>"; };
-		24BBDB2D2333678C006F920E /* rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotate.h; sourceTree = "<group>"; };
-		24BBDB2E2333678C006F920E /* convert_from_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert_from_argb.h; sourceTree = "<group>"; };
-		24BBDB2F2333678C006F920E /* basic_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basic_types.h; sourceTree = "<group>"; };
-		24BBDB302333678C006F920E /* convert_from.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert_from.h; sourceTree = "<group>"; };
-		24BBDB312333678C006F920E /* convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert.h; sourceTree = "<group>"; };
-		24BBDB322333678C006F920E /* rotate_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotate_argb.h; sourceTree = "<group>"; };
-		24BBDB332333678C006F920E /* macros_msa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros_msa.h; sourceTree = "<group>"; };
-		24BBDB342333678C006F920E /* row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = row.h; sourceTree = "<group>"; };
-		24BBDB362333678C006F920E /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
 		24BBDB5B233368D7006F920E /* hwcontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hwcontext.h; sourceTree = "<group>"; };
 		24BBDB5C233368D7006F920E /* time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
 		24BBDB5D233368D7006F920E /* hwcontext_cuda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hwcontext_cuda.h; sourceTree = "<group>"; };
@@ -335,7 +291,6 @@
 				24BBDC40233368D8006F920E /* libavutil.a in Frameworks */,
 				247A73BC232FA10300883A89 /* CoreImage.framework in Frameworks */,
 				247A73BE232FA10D00883A89 /* OpenGLES.framework in Frameworks */,
-				24BBDB4C2333678D006F920E /* libyuv.a in Frameworks */,
 				247A73C0232FA11500883A89 /* AVFoundation.framework in Frameworks */,
 				247A73C2232FA12100883A89 /* AudioToolbox.framework in Frameworks */,
 				24BBDC45233368D8006F920E /* libavdevice.a in Frameworks */,
@@ -367,7 +322,6 @@
 			children = (
 				247A72B3232F9FB000883A89 /* AFOFFMpegLib.h */,
 				24BBDB4F233368D7006F920E /* FFmpeg */,
-				24BBDB1D2333678C006F920E /* libyuv */,
 				247A740A232FA5F600883A89 /* x264 */,
 				247A73D3232FA5EB00883A89 /* libxvidcore */,
 				247A73C3232FA5E200883A89 /* aac */,
@@ -473,59 +427,6 @@
 			isa = PBXGroup;
 			children = (
 				247A740F232FA5F600883A89 /* libx264.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		24BBDB1D2333678C006F920E /* libyuv */ = {
-			isa = PBXGroup;
-			children = (
-				24BBDB1E2333678C006F920E /* include */,
-				24BBDB352333678C006F920E /* lib */,
-			);
-			path = libyuv;
-			sourceTree = "<group>";
-		};
-		24BBDB1E2333678C006F920E /* include */ = {
-			isa = PBXGroup;
-			children = (
-				24BBDB1F2333678C006F920E /* libyuv.h */,
-				24BBDB202333678C006F920E /* libyuv */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		24BBDB202333678C006F920E /* libyuv */ = {
-			isa = PBXGroup;
-			children = (
-				24BBDB212333678C006F920E /* scale_row.h */,
-				24BBDB222333678C006F920E /* scale.h */,
-				24BBDB232333678C006F920E /* version.h */,
-				24BBDB242333678C006F920E /* cpu_id.h */,
-				24BBDB252333678C006F920E /* video_common.h */,
-				24BBDB262333678C006F920E /* compare_row.h */,
-				24BBDB272333678C006F920E /* mjpeg_decoder.h */,
-				24BBDB282333678C006F920E /* rotate_row.h */,
-				24BBDB292333678C006F920E /* planar_functions.h */,
-				24BBDB2A2333678C006F920E /* scale_argb.h */,
-				24BBDB2B2333678C006F920E /* compare.h */,
-				24BBDB2C2333678C006F920E /* convert_argb.h */,
-				24BBDB2D2333678C006F920E /* rotate.h */,
-				24BBDB2E2333678C006F920E /* convert_from_argb.h */,
-				24BBDB2F2333678C006F920E /* basic_types.h */,
-				24BBDB302333678C006F920E /* convert_from.h */,
-				24BBDB312333678C006F920E /* convert.h */,
-				24BBDB322333678C006F920E /* rotate_argb.h */,
-				24BBDB332333678C006F920E /* macros_msa.h */,
-				24BBDB342333678C006F920E /* row.h */,
-			);
-			path = libyuv;
-			sourceTree = "<group>";
-		};
-		24BBDB352333678C006F920E /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				24BBDB362333678C006F920E /* libyuv.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -718,11 +619,9 @@
 				247A73CD232FA5E200883A89 /* aacdecoder_lib.h in Headers */,
 				24BBDBE8233368D8006F920E /* motion_vector.h in Headers */,
 				24BBDBEA233368D8006F920E /* lfg.h in Headers */,
-				24BBDB382333678D006F920E /* scale_row.h in Headers */,
 				24BBDBE7233368D8006F920E /* sha.h in Headers */,
 				24BBDC30233368D8006F920E /* qsv.h in Headers */,
 				24BBDC3C233368D8006F920E /* dxva2.h in Headers */,
-				24BBDB442333678D006F920E /* rotate.h in Headers */,
 				24BBDBDE233368D8006F920E /* blowfish.h in Headers */,
 				24BBDC11233368D8006F920E /* cpu.h in Headers */,
 				247A73D1232FA5E200883A89 /* FDK_audio.h in Headers */,
@@ -731,7 +630,6 @@
 				24BBDC22233368D8006F920E /* hash.h in Headers */,
 				247A73CE232FA5E200883A89 /* machine_type.h in Headers */,
 				24BBDC01233368D8006F920E /* camellia.h in Headers */,
-				24BBDB402333678D006F920E /* planar_functions.h in Headers */,
 				24BBDC3A233368D8006F920E /* avdct.h in Headers */,
 				24BBDC25233368D8006F920E /* avstring.h in Headers */,
 				24BBDBFC233368D8006F920E /* timecode.h in Headers */,
@@ -740,7 +638,6 @@
 				24BBDC3F233368D8006F920E /* swresample.h in Headers */,
 				24BBDBD8233368D8006F920E /* hwcontext.h in Headers */,
 				24BBDC35233368D8006F920E /* d3d11va.h in Headers */,
-				24BBDB3D2333678D006F920E /* compare_row.h in Headers */,
 				24BBDC19233368D8006F920E /* parseutils.h in Headers */,
 				24BBDBF9233368D8006F920E /* attributes.h in Headers */,
 				24BBDC0B233368D8006F920E /* log.h in Headers */,
@@ -750,14 +647,10 @@
 				24BBDBF1233368D8006F920E /* md5.h in Headers */,
 				24BBDBF0233368D8006F920E /* file.h in Headers */,
 				24BBDBEE233368D8006F920E /* hwcontext_vdpau.h in Headers */,
-				24BBDB422333678D006F920E /* compare.h in Headers */,
 				24BBDBDA233368D8006F920E /* hwcontext_cuda.h in Headers */,
-				24BBDB3B2333678D006F920E /* cpu_id.h in Headers */,
-				24BBDB462333678D006F920E /* basic_types.h in Headers */,
 				24BBDC2F233368D8006F920E /* vdpau.h in Headers */,
 				24BBDC23233368D8006F920E /* mathematics.h in Headers */,
 				24BBDBFD233368D8006F920E /* sha512.h in Headers */,
-				24BBDB392333678D006F920E /* scale.h in Headers */,
 				24BBDC1D233368D8006F920E /* pixfmt.h in Headers */,
 				24BBDC03233368D8006F920E /* hwcontext_drm.h in Headers */,
 				24BBDBFF233368D8006F920E /* display.h in Headers */,
@@ -765,11 +658,9 @@
 				24BBDC07233368D8006F920E /* dict.h in Headers */,
 				24BBDBF6233368D8006F920E /* audio_fifo.h in Headers */,
 				24BBDBE3233368D8006F920E /* samplefmt.h in Headers */,
-				24BBDB452333678D006F920E /* convert_from_argb.h in Headers */,
 				24BBDBE4233368D8006F920E /* pixdesc.h in Headers */,
 				24BBDC02233368D8006F920E /* pixelutils.h in Headers */,
 				24BBDC15233368D8006F920E /* twofish.h in Headers */,
-				24BBDB412333678D006F920E /* scale_argb.h in Headers */,
 				24BBDC1C233368D8006F920E /* hwcontext_qsv.h in Headers */,
 				24BBDC21233368D8006F920E /* avassert.h in Headers */,
 				24BBDC1A233368D8006F920E /* ripemd.h in Headers */,
@@ -781,11 +672,8 @@
 				24BBDC34233368D8006F920E /* mediacodec.h in Headers */,
 				24BBDC3B233368D8006F920E /* vorbis_parser.h in Headers */,
 				24BBDC32233368D8006F920E /* videotoolbox.h in Headers */,
-				24BBDB492333678D006F920E /* rotate_argb.h in Headers */,
 				24BBDBDF233368D8006F920E /* replaygain.h in Headers */,
 				24BBDC12233368D8006F920E /* lzo.h in Headers */,
-				24BBDB3C2333678D006F920E /* video_common.h in Headers */,
-				24BBDB482333678D006F920E /* convert.h in Headers */,
 				24BBDC09233368D8006F920E /* opt.h in Headers */,
 				24BBDBF8233368D8006F920E /* threadmessage.h in Headers */,
 				24BBDC2D233368D8006F920E /* avcodec.h in Headers */,
@@ -793,7 +681,6 @@
 				24BBDC13233368D8006F920E /* des.h in Headers */,
 				24BBDC2B233368D8006F920E /* version.h in Headers */,
 				24BBDBDB233368D8006F920E /* intfloat.h in Headers */,
-				24BBDB372333678D006F920E /* libyuv.h in Headers */,
 				24BBDC06233368D8006F920E /* eval.h in Headers */,
 				24BBDC36233368D8006F920E /* avfft.h in Headers */,
 				24BBDC04233368D8006F920E /* common.h in Headers */,
@@ -804,37 +691,30 @@
 				24BBDC18233368D8006F920E /* mem.h in Headers */,
 				24BBDC37233368D8006F920E /* vda.h in Headers */,
 				24BBDC16233368D8006F920E /* imgutils.h in Headers */,
-				24BBDB4B2333678D006F920E /* row.h in Headers */,
 				24BBDC38233368D8006F920E /* jni.h in Headers */,
 				24BBDC17233368D8006F920E /* hwcontext_videotoolbox.h in Headers */,
 				247A73CF232FA5E200883A89 /* aacenc_lib.h in Headers */,
-				24BBDB3A2333678D006F920E /* version.h in Headers */,
 				24BBDBEF233368D8006F920E /* frame.h in Headers */,
 				24BBDC3E233368D8006F920E /* version.h in Headers */,
 				24BBDC00233368D8006F920E /* buffer.h in Headers */,
 				24BBDC0D233368D8006F920E /* macros.h in Headers */,
 				24BBDBDD233368D8006F920E /* fifo.h in Headers */,
 				24BBDC10233368D8006F920E /* tea.h in Headers */,
-				24BBDB3E2333678D006F920E /* mjpeg_decoder.h in Headers */,
 				24BBDC2E233368D8006F920E /* version.h in Headers */,
 				24BBDBF3233368D8006F920E /* hwcontext_vaapi.h in Headers */,
 				24BBDBE1233368D8006F920E /* murmur3.h in Headers */,
-				24BBDB472333678D006F920E /* convert_from.h in Headers */,
 				24BBDBE6233368D8006F920E /* rational.h in Headers */,
 				24BBDC0E233368D8006F920E /* bswap.h in Headers */,
 				24BBDC33233368D8006F920E /* xvmc.h in Headers */,
 				24BBDBF7233368D8006F920E /* tree.h in Headers */,
 				24BBDC0A233368D8006F920E /* mastering_display_metadata.h in Headers */,
-				24BBDB3F2333678D006F920E /* rotate_row.h in Headers */,
 				24BBDC24233368D8006F920E /* intreadwrite.h in Headers */,
 				24BBDC1F233368D8006F920E /* timestamp.h in Headers */,
 				24BBDBEC233368D8006F920E /* xtea.h in Headers */,
 				24BBDC0C233368D8006F920E /* aes.h in Headers */,
 				24BBDBE2233368D8006F920E /* stereo3d.h in Headers */,
-				24BBDB432333678D006F920E /* convert_argb.h in Headers */,
 				24BBDBF4233368D8006F920E /* spherical.h in Headers */,
 				24BBDBDC233368D8006F920E /* error.h in Headers */,
-				24BBDB4A2333678D006F920E /* macros_msa.h in Headers */,
 				24BBDBED233368D8006F920E /* crc.h in Headers */,
 				24BBDBFB233368D8006F920E /* hwcontext_d3d11va.h in Headers */,
 				24BBDBF2233368D8006F920E /* cast5.h in Headers */,
