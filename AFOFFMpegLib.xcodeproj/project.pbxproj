@@ -15,14 +15,6 @@
 		247A73BE232FA10D00883A89 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247A73BD232FA10D00883A89 /* OpenGLES.framework */; };
 		247A73C0232FA11500883A89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247A73BF232FA11500883A89 /* AVFoundation.framework */; };
 		247A73C2232FA12100883A89 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247A73C1232FA12100883A89 /* AudioToolbox.framework */; };
-		247A73CD232FA5E200883A89 /* aacdecoder_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A73C6232FA5E200883A89 /* aacdecoder_lib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247A73CE232FA5E200883A89 /* machine_type.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A73C7232FA5E200883A89 /* machine_type.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247A73CF232FA5E200883A89 /* aacenc_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A73C8232FA5E200883A89 /* aacenc_lib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247A73D0232FA5E200883A89 /* genericStds.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A73C9232FA5E200883A89 /* genericStds.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247A73D1232FA5E200883A89 /* FDK_audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A73CA232FA5E200883A89 /* FDK_audio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247A73D2232FA5E200883A89 /* libfdk-aac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 247A73CC232FA5E200883A89 /* libfdk-aac.a */; };
-		247A73D8232FA5EB00883A89 /* xvid.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A73D5232FA5EB00883A89 /* xvid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247A73D9232FA5EB00883A89 /* libxvidcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 247A73D7232FA5EB00883A89 /* libxvidcore.a */; };
 		247A7410232FA5F600883A89 /* x264_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A740C232FA5F600883A89 /* x264_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		247A7411232FA5F600883A89 /* x264.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A740D232FA5F600883A89 /* x264.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		247A7412232FA5F600883A89 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 247A740F232FA5F600883A89 /* libx264.a */; };
@@ -148,14 +140,6 @@
 		247A73BD232FA10D00883A89 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		247A73BF232FA11500883A89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		247A73C1232FA12100883A89 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		247A73C6232FA5E200883A89 /* aacdecoder_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdecoder_lib.h; sourceTree = "<group>"; };
-		247A73C7232FA5E200883A89 /* machine_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine_type.h; sourceTree = "<group>"; };
-		247A73C8232FA5E200883A89 /* aacenc_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacenc_lib.h; sourceTree = "<group>"; };
-		247A73C9232FA5E200883A89 /* genericStds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericStds.h; sourceTree = "<group>"; };
-		247A73CA232FA5E200883A89 /* FDK_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_audio.h; sourceTree = "<group>"; };
-		247A73CC232FA5E200883A89 /* libfdk-aac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libfdk-aac.a"; sourceTree = "<group>"; };
-		247A73D5232FA5EB00883A89 /* xvid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xvid.h; sourceTree = "<group>"; };
-		247A73D7232FA5EB00883A89 /* libxvidcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libxvidcore.a; sourceTree = "<group>"; };
 		247A740C232FA5F600883A89 /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
 		247A740D232FA5F600883A89 /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
 		247A740F232FA5F600883A89 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
@@ -277,12 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				247A7412232FA5F600883A89 /* libx264.a in Frameworks */,
-				247A73D9232FA5EB00883A89 /* libxvidcore.a in Frameworks */,
 				24BBDC47233368D8006F920E /* libswscale.a in Frameworks */,
 				24BBDC41233368D8006F920E /* libavfilter.a in Frameworks */,
 				24BBDC44233368D8006F920E /* libavformat.a in Frameworks */,
 				247A73B6232FA0DF00883A89 /* VideoToolbox.framework in Frameworks */,
-				247A73D2232FA5E200883A89 /* libfdk-aac.a in Frameworks */,
 				24BBDC42233368D8006F920E /* libavcodec.a in Frameworks */,
 				247A73B8232FA0EF00883A89 /* CoreMedia.framework in Frameworks */,
 				24BBDC43233368D8006F920E /* libpostproc.a in Frameworks */,
@@ -323,8 +305,6 @@
 				247A72B3232F9FB000883A89 /* AFOFFMpegLib.h */,
 				24BBDB4F233368D7006F920E /* FFmpeg */,
 				247A740A232FA5F600883A89 /* x264 */,
-				247A73D3232FA5EB00883A89 /* libxvidcore */,
-				247A73C3232FA5E200883A89 /* aac */,
 			);
 			path = AFOFFMpegLib;
 			sourceTree = "<group>";
@@ -341,68 +321,6 @@
 				247A73B5232FA0DF00883A89 /* VideoToolbox.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		247A73C3232FA5E200883A89 /* aac */ = {
-			isa = PBXGroup;
-			children = (
-				247A73C4232FA5E200883A89 /* include */,
-				247A73CB232FA5E200883A89 /* lib */,
-			);
-			path = aac;
-			sourceTree = "<group>";
-		};
-		247A73C4232FA5E200883A89 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				247A73C5232FA5E200883A89 /* fdk-aac */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		247A73C5232FA5E200883A89 /* fdk-aac */ = {
-			isa = PBXGroup;
-			children = (
-				247A73C6232FA5E200883A89 /* aacdecoder_lib.h */,
-				247A73C7232FA5E200883A89 /* machine_type.h */,
-				247A73C8232FA5E200883A89 /* aacenc_lib.h */,
-				247A73C9232FA5E200883A89 /* genericStds.h */,
-				247A73CA232FA5E200883A89 /* FDK_audio.h */,
-			);
-			path = "fdk-aac";
-			sourceTree = "<group>";
-		};
-		247A73CB232FA5E200883A89 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				247A73CC232FA5E200883A89 /* libfdk-aac.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		247A73D3232FA5EB00883A89 /* libxvidcore */ = {
-			isa = PBXGroup;
-			children = (
-				247A73D4232FA5EB00883A89 /* include */,
-				247A73D6232FA5EB00883A89 /* lib */,
-			);
-			path = libxvidcore;
-			sourceTree = "<group>";
-		};
-		247A73D4232FA5EB00883A89 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				247A73D5232FA5EB00883A89 /* xvid.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		247A73D6232FA5EB00883A89 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				247A73D7232FA5EB00883A89 /* libxvidcore.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		247A740A232FA5F600883A89 /* x264 */ = {
@@ -616,7 +534,6 @@
 				247A72B5232F9FB000883A89 /* AFOFFMpegLib.h in Headers */,
 				24BBDC39233368D8006F920E /* dirac.h in Headers */,
 				24BBDC1B233368D8006F920E /* bprint.h in Headers */,
-				247A73CD232FA5E200883A89 /* aacdecoder_lib.h in Headers */,
 				24BBDBE8233368D8006F920E /* motion_vector.h in Headers */,
 				24BBDBEA233368D8006F920E /* lfg.h in Headers */,
 				24BBDBE7233368D8006F920E /* sha.h in Headers */,
@@ -624,11 +541,9 @@
 				24BBDC3C233368D8006F920E /* dxva2.h in Headers */,
 				24BBDBDE233368D8006F920E /* blowfish.h in Headers */,
 				24BBDC11233368D8006F920E /* cpu.h in Headers */,
-				247A73D1232FA5E200883A89 /* FDK_audio.h in Headers */,
 				24BBDBE9233368D8006F920E /* avconfig.h in Headers */,
 				24BBDC2A233368D8006F920E /* avformat.h in Headers */,
 				24BBDC22233368D8006F920E /* hash.h in Headers */,
-				247A73CE232FA5E200883A89 /* machine_type.h in Headers */,
 				24BBDC01233368D8006F920E /* camellia.h in Headers */,
 				24BBDC3A233368D8006F920E /* avdct.h in Headers */,
 				24BBDC25233368D8006F920E /* avstring.h in Headers */,
@@ -684,8 +599,6 @@
 				24BBDC06233368D8006F920E /* eval.h in Headers */,
 				24BBDC36233368D8006F920E /* avfft.h in Headers */,
 				24BBDC04233368D8006F920E /* common.h in Headers */,
-				247A73D8232FA5EB00883A89 /* xvid.h in Headers */,
-				247A73D0232FA5E200883A89 /* genericStds.h in Headers */,
 				247A7411232FA5F600883A89 /* x264.h in Headers */,
 				24BBDC08233368D8006F920E /* random_seed.h in Headers */,
 				24BBDC18233368D8006F920E /* mem.h in Headers */,
@@ -693,7 +606,6 @@
 				24BBDC16233368D8006F920E /* imgutils.h in Headers */,
 				24BBDC38233368D8006F920E /* jni.h in Headers */,
 				24BBDC17233368D8006F920E /* hwcontext_videotoolbox.h in Headers */,
-				247A73CF232FA5E200883A89 /* aacenc_lib.h in Headers */,
 				24BBDBEF233368D8006F920E /* frame.h in Headers */,
 				24BBDC3E233368D8006F920E /* version.h in Headers */,
 				24BBDC00233368D8006F920E /* buffer.h in Headers */,
