@@ -101,8 +101,11 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  
+
+  s.header_mappings_dir: "AFOFFMpeg/FFmpeg/include"
+
   s.preserve_paths = "AFOFFMpegLib/FFmpeg/**/*.h"
+  
   s.vendored_libraries = "AFOFFMpegLib/FFmpeg/lib/libavcodec.a","AFOFFMpegLib/FFmpeg/lib/libavformat.a","AFOFFMpegLib/FFmpeg/lib/libavutil.a","AFOFFMpegLib/FFmpeg/lib/libswscale.a","AFOFFMpegLib/FFmpeg/lib/libswresample.a","AFOFFMpegLib/x264/lib/libx264.a"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
