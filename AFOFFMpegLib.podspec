@@ -101,9 +101,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-
-  s.header_mappings_dir = "AFOFFMpegLib/FFmpeg/include"
-
+  
   s.preserve_paths = "AFOFFMpegLib/FFmpeg/**/*.h"
   s.vendored_libraries = "AFOFFMpegLib/FFmpeg/lib/libavcodec.a","AFOFFMpegLib/FFmpeg/lib/libavformat.a","AFOFFMpegLib/FFmpeg/lib/libavutil.a","AFOFFMpegLib/FFmpeg/lib/libswscale.a","AFOFFMpegLib/FFmpeg/lib/libswresample.a","AFOFFMpegLib/x264/lib/libx264.a"
 
@@ -114,10 +112,10 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "CoreMedia", "AVFoundation","AudioToolbox","VideoToolbox"
+  s.frameworks = ["CoreMedia", "AVFoundation","AudioToolbox","VideoToolbox"]
 
   # s.library   = "iconv"
-  s.lidsbraries = "c", "c++","z","iconv","bz2"
+  s.libraries = ["c", "c++","z","iconv","bz2"]
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -128,7 +126,7 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h"
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h" ,
                   "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/lib/**'"
   }
 end
