@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFOFFMpegLib"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "decoding."
 
   # This description is used to generate tags and improve search results.
@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  #s.header_mappings_dir = "AFOFFMpegLib/FFmpeg/include"
+  #s.header_mappings_dir = "AFOFFMpegLib/**/include"
 
   s.preserve_paths = "AFOFFMpegLib/FFmpeg/**/*.h","AFOFFMpegLib/libyuv/**/*.h"
 
@@ -135,8 +135,7 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
 
-   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h,$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/libyuv/include/**/*.h",
-
-                  "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/**/lib/**"
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h" ,
+                  "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/Classes/lib/**'"
   }
 end
