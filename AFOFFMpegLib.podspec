@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.header_mappings_dir: "AFOFFMpegLib/FFmpeg/include"
+  s.header_mappings_dir = "AFOFFMpegLib/FFmpeg/include"
 
   s.preserve_paths = "AFOFFMpegLib/FFmpeg/**/*.h"
 
