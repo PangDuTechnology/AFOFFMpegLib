@@ -122,10 +122,6 @@
 		72D6446E23376A1A00369780 /* dv_profile.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643E32337695400369780 /* dv_profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72D6446F23376A2D00369780 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643E52337695400369780 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72D6447023376A2D00369780 /* swresample.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643E62337695400369780 /* swresample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72D6447223376C3F00369780 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D6447123376C3F00369780 /* CoreMedia.framework */; };
-		72D6447423376C4700369780 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D6447323376C4700369780 /* AVFoundation.framework */; };
-		72D6447623376C5200369780 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D6447523376C5200369780 /* AudioToolbox.framework */; };
-		72D6447823376C5900369780 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D6447723376C5900369780 /* VideoToolbox.framework */; };
 		F2EE6B104119D14813B5699C /* libPods-AFOFFMpegLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA460E7E61B4FA421DD75EE7 /* libPods-AFOFFMpegLib.a */; };
 /* End PBXBuildFile section */
 
@@ -285,10 +281,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D6447223376C3F00369780 /* CoreMedia.framework in Frameworks */,
-				72D6447423376C4700369780 /* AVFoundation.framework in Frameworks */,
-				72D6447623376C5200369780 /* AudioToolbox.framework in Frameworks */,
-				72D6447823376C5900369780 /* VideoToolbox.framework in Frameworks */,
 				F2EE6B104119D14813B5699C /* libPods-AFOFFMpegLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
