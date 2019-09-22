@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
 
   s.header_mappings_dir = "AFOFFMpegLib/FFmpeg/include"
 
-  s.preserve_paths = "AFOFFMpegLib/FFmpeg/**/*.h"
+  s.preserve_paths = "AFOFFMpegLib/AFOFFMpegLib/FFmpeg/**/*.h"
 
   s.vendored_libraries = "AFOFFMpegLib/FFmpeg/lib/libavcodec.a","AFOFFMpegLib/FFmpeg/lib/libavformat.a","AFOFFMpegLib/FFmpeg/lib/libavutil.a","AFOFFMpegLib/FFmpeg/lib/libswscale.a","AFOFFMpegLib/FFmpeg/lib/libswresample.a","AFOFFMpegLib/x264/lib/libx264.a"
 
