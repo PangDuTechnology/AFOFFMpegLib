@@ -9,15 +9,6 @@
 /* Begin PBXBuildFile section */
 		72D642DD233768EF00369780 /* AFOFFMpegLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D642DC233768EF00369780 /* AFOFFMpegLib.m */; };
 		72D642DE233768EF00369780 /* AFOFFMpegLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 72D642DB233768EF00369780 /* AFOFFMpegLib.h */; };
-		72D643F02337695400369780 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643E82337695400369780 /* libavutil.a */; };
-		72D643F12337695400369780 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643E92337695400369780 /* libavfilter.a */; };
-		72D643F22337695400369780 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643EA2337695400369780 /* libavcodec.a */; };
-		72D643F32337695400369780 /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643EB2337695400369780 /* libpostproc.a */; };
-		72D643F42337695400369780 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643EC2337695400369780 /* libavformat.a */; };
-		72D643F52337695400369780 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643ED2337695400369780 /* libavdevice.a */; };
-		72D643F62337695400369780 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643EE2337695400369780 /* libswresample.a */; };
-		72D643F72337695400369780 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643EF2337695400369780 /* libswscale.a */; };
-		72D643FE2337696900369780 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D643FD2337696900369780 /* libx264.a */; };
 		72D64400233769D800369780 /* x264_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643FA2337696900369780 /* x264_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72D64401233769D800369780 /* x264.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643FB2337696900369780 /* x264.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72D64402233769E000369780 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643712337695400369780 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -298,16 +289,7 @@
 				72D6447423376C4700369780 /* AVFoundation.framework in Frameworks */,
 				72D6447623376C5200369780 /* AudioToolbox.framework in Frameworks */,
 				72D6447823376C5900369780 /* VideoToolbox.framework in Frameworks */,
-				72D643F62337695400369780 /* libswresample.a in Frameworks */,
-				72D643F52337695400369780 /* libavdevice.a in Frameworks */,
-				72D643F12337695400369780 /* libavfilter.a in Frameworks */,
-				72D643F02337695400369780 /* libavutil.a in Frameworks */,
-				72D643F32337695400369780 /* libpostproc.a in Frameworks */,
-				72D643F42337695400369780 /* libavformat.a in Frameworks */,
-				72D643F72337695400369780 /* libswscale.a in Frameworks */,
-				72D643FE2337696900369780 /* libx264.a in Frameworks */,
 				F2EE6B104119D14813B5699C /* libPods-AFOFFMpegLib.a in Frameworks */,
-				72D643F22337695400369780 /* libavcodec.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,6 +911,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include",
+					"$(PROJECT_DIR)/AFOFFMpegLib/x264/include",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/lib",
@@ -950,6 +936,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/include",
+					"$(PROJECT_DIR)/AFOFFMpegLib/x264/include",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AFOFFMpegLib/FFmpeg/lib",
