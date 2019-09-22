@@ -9,15 +9,6 @@
 /* Begin PBXBuildFile section */
 		72B5AA0D2337AE6C00FBBDC9 /* AFOFFMpegLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B5AA0C2337AE6C00FBBDC9 /* AFOFFMpegLib.m */; };
 		72B5AA0E2337AE6C00FBBDC9 /* AFOFFMpegLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 72B5AA0B2337AE6C00FBBDC9 /* AFOFFMpegLib.h */; };
-		72B5AA9C2337AEAA00FBBDC9 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA8E2337AEAA00FBBDC9 /* libavutil.a */; };
-		72B5AA9D2337AEAA00FBBDC9 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA8F2337AEAA00FBBDC9 /* libavfilter.a */; };
-		72B5AA9E2337AEAA00FBBDC9 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA902337AEAA00FBBDC9 /* libavcodec.a */; };
-		72B5AA9F2337AEAA00FBBDC9 /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA912337AEAA00FBBDC9 /* libpostproc.a */; };
-		72B5AAA02337AEAA00FBBDC9 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA922337AEAA00FBBDC9 /* libavformat.a */; };
-		72B5AAA12337AEAA00FBBDC9 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA932337AEAA00FBBDC9 /* libavdevice.a */; };
-		72B5AAA22337AEAA00FBBDC9 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA942337AEAA00FBBDC9 /* libswresample.a */; };
-		72B5AAA32337AEAA00FBBDC9 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA952337AEAA00FBBDC9 /* libswscale.a */; };
-		72B5AAA42337AEAA00FBBDC9 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5AA9B2337AEAA00FBBDC9 /* libx264.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,15 +157,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B5AA9D2337AEAA00FBBDC9 /* libavfilter.a in Frameworks */,
-				72B5AA9F2337AEAA00FBBDC9 /* libpostproc.a in Frameworks */,
-				72B5AAA42337AEAA00FBBDC9 /* libx264.a in Frameworks */,
-				72B5AA9C2337AEAA00FBBDC9 /* libavutil.a in Frameworks */,
-				72B5AAA02337AEAA00FBBDC9 /* libavformat.a in Frameworks */,
-				72B5AAA32337AEAA00FBBDC9 /* libswscale.a in Frameworks */,
-				72B5AAA12337AEAA00FBBDC9 /* libavdevice.a in Frameworks */,
-				72B5AAA22337AEAA00FBBDC9 /* libswresample.a in Frameworks */,
-				72B5AA9E2337AEAA00FBBDC9 /* libavcodec.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
