@@ -131,6 +131,10 @@
 		72D6446E23376A1A00369780 /* dv_profile.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643E32337695400369780 /* dv_profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72D6446F23376A2D00369780 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643E52337695400369780 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72D6447023376A2D00369780 /* swresample.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D643E62337695400369780 /* swresample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D6447223376C3F00369780 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D6447123376C3F00369780 /* CoreMedia.framework */; };
+		72D6447423376C4700369780 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D6447323376C4700369780 /* AVFoundation.framework */; };
+		72D6447623376C5200369780 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D6447523376C5200369780 /* AudioToolbox.framework */; };
+		72D6447823376C5900369780 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D6447723376C5900369780 /* VideoToolbox.framework */; };
 		F2EE6B104119D14813B5699C /* libPods-AFOFFMpegLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA460E7E61B4FA421DD75EE7 /* libPods-AFOFFMpegLib.a */; };
 /* End PBXBuildFile section */
 
@@ -274,6 +278,13 @@
 		72D643FA2337696900369780 /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
 		72D643FB2337696900369780 /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
 		72D643FD2337696900369780 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		72D6447123376C3F00369780 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		72D6447323376C4700369780 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		72D6447523376C5200369780 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		72D6447723376C5900369780 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		72D6447923376C8B00369780 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		72D6447B23376C9500369780 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libbz2.tbd; sourceTree = DEVELOPER_DIR; };
+		72D6447D23376CAD00369780 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
 		AA460E7E61B4FA421DD75EE7 /* libPods-AFOFFMpegLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOFFMpegLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE4F021F6CF7748B72BF1DE /* Pods-AFOFFMpegLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOFFMpegLib.release.xcconfig"; path = "Target Support Files/Pods-AFOFFMpegLib/Pods-AFOFFMpegLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -283,6 +294,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D6447223376C3F00369780 /* CoreMedia.framework in Frameworks */,
+				72D6447423376C4700369780 /* AVFoundation.framework in Frameworks */,
+				72D6447623376C5200369780 /* AudioToolbox.framework in Frameworks */,
+				72D6447823376C5900369780 /* VideoToolbox.framework in Frameworks */,
 				72D643F62337695400369780 /* libswresample.a in Frameworks */,
 				72D643F52337695400369780 /* libavdevice.a in Frameworks */,
 				72D643F12337695400369780 /* libavfilter.a in Frameworks */,
@@ -572,6 +587,13 @@
 		83EB224F8F0A5B93989E72D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72D6447D23376CAD00369780 /* libiconv.tbd */,
+				72D6447B23376C9500369780 /* libbz2.tbd */,
+				72D6447923376C8B00369780 /* libz.tbd */,
+				72D6447723376C5900369780 /* VideoToolbox.framework */,
+				72D6447523376C5200369780 /* AudioToolbox.framework */,
+				72D6447323376C4700369780 /* AVFoundation.framework */,
+				72D6447123376C3F00369780 /* CoreMedia.framework */,
 				AA460E7E61B4FA421DD75EE7 /* libPods-AFOFFMpegLib.a */,
 			);
 			name = Frameworks;
@@ -841,7 +863,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -893,7 +915,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
