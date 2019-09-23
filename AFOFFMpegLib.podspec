@@ -90,9 +90,10 @@ Pod::Spec.new do |s|
 
   #s.public_header_files = "AFOFFMpegLib/**/*.h"
 
+
   s.subspec 'libavutil' do |avutil|
   avutil.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libavutil/*.h';
-
+  end;
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
