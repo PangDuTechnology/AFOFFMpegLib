@@ -131,7 +131,7 @@ Pod::Spec.new do |s|
 
    s.static_framework = true
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h" ,
-                  "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/lib/**'"
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/**/*.h" ,
+                  "LIBRARY_SEARCH_PATHS": "'$(SDKROOT)/AFOFFMpegLib/AFOFFMpegLib/FFmpeg/lib/**'"
   }
 end
