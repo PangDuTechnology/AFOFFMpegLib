@@ -93,7 +93,23 @@ Pod::Spec.new do |s|
 
   s.subspec 'libavutil' do |avutil|
   avutil.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libavutil/*.h';
-  end;
+  end
+
+   s.subspec 'libavformat' do |avformat|
+  avformat.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libavformat/*.h';
+  end
+
+   s.subspec 'libswscale' do |swscale|
+  swscale.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libswscale/*.h';
+  end
+
+   s.subspec 'libavcodec' do |avcodec|
+  avcodec.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libavcodec/*.h';
+  end
+
+   s.subspec 'libswresample' do |swresample|
+  swresample.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libswresample/*.h';
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
