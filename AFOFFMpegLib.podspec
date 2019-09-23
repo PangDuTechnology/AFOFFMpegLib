@@ -103,17 +103,17 @@ Pod::Spec.new do |s|
 
     s.subspec 'libswscale' do |swscale|
     swscale.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libswscale/*.h'
-    swscale.public_header_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libswscale/*.h
+    swscale.public_header_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libswscale/*.h'
     end
 
     s.subspec 'libavcodec' do |avcodec|
     avcodec.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libavcodec/*.h'
-    avcodec.public_header_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libavcodec/*.h
+    avcodec.public_header_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libavcodec/*.h'
     end
 
     s.subspec 'libswresample' do |swresample|
     swresample.source_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libswresample/*.h'
-    swresample.public_header_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libswresample/*.h
+    swresample.public_header_files = 'AFOFFMpegLib/AFOFFMpegLib/FFmpeg/include/libswresample/*.h'
     end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
