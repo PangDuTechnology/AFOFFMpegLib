@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "AFOFFMpegLib/FFmpeg/include/**/*.h"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.header_mappings_dir = "FFmpeg/include"
-  s.preserve_paths = "FFmpeg/**/**"
-  s.vendored_libraries = "FFmpeg/lib/libavcodec.a","FFmpeg/lib/libavformat.a","FFmpeg/lib/libavutil.a","FFmpeg/lib/libswscale.a","FFmpeg/lib/libswresample.a","x264/lib/libx264.a"
+  s.header_mappings_dir = "AFOFFMpegLib/FFmpeg/include"
+  s.preserve_paths = "AFOFFMpegLib/FFmpeg/**/**"
+  s.vendored_libraries = "AFOFFMpegLib/FFmpeg/lib/libavcodec.a","AFOFFMpegLib/FFmpeg/lib/libavformat.a","AFOFFMpegLib/FFmpeg/lib/libavutil.a","AFOFFMpegLib/FFmpeg/lib/libswscale.a","AFOFFMpegLib/FFmpeg/lib/libswresample.a","AFOFFMpegLib/x264/lib/libx264.a"
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.frameworks = ["CoreMedia", "AVFoundation","AudioToolbox","VideoToolbox"]
   s.libraries = ["c", "c++","z","iconv","bz2"]
