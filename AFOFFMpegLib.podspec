@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
    s.requires_arc = true
    s.static_framework = true
-   s.xcconfig = { 'HEADER_SEARCH_PATHS'=> '$(SDKROOT)/FFmpeg/include/**/*.h' ,
-                  'LIBRARY_SEARCH_PATHS'=> '"$(SDKROOT)/FFmpeg/lib"'
+   s.xcconfig = { 'HEADER_SEARCH_PATHS'=> '$(SDKROOT)/AFOFFMpegLib/FFmpeg/include/**/*.h' ,
+                  'LIBRARY_SEARCH_PATHS'=> '"$(SDKROOT)/AFOFFMpegLib/FFmpeg/lib"'
   }
 end
