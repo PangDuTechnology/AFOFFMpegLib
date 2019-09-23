@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOFFMpegLib.git", :tag => s.version.to_s }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "FFmpeg/include/**/*.h"
+  s.source_files  = "AFOFFMpegLib/FFmpeg/include/**/*.h"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.header_mappings_dir = "FFmpeg/include"
   s.preserve_paths = "FFmpeg/**/**"
