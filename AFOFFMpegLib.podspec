@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.header_mappings_dir = "FFmpeg/include"
   s.preserve_paths = "FFmpeg/**/**"
-  s.vendored_libraries = "FFmpeg/lib/libavcodec.a","contains/FFmpeg/lib/libavformat.a","contains/FFmpeg/lib/libavutil.a","contains/FFmpeg/lib/libswscale.a","contains/FFmpeg/lib/libswresample.a"
+  s.vendored_libraries = "FFmpeg/lib/libavcodec.a","FFmpeg/lib/libavformat.a","FFmpeg/lib/libavutil.a","FFmpeg/lib/libswscale.a","FFmpeg/lib/libswresample.a"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.frameworks = ["CoreMedia", "AVFoundation","AudioToolbox","VideoToolbox"]
