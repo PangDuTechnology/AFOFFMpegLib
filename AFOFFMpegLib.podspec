@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
         avutil.public_header_files = 'FFmpeg/include/libavutil/*.h'  
       end
 
-      include.subspec 'libswresample' do |libswresample|
+      include.subspec 'libswresample' do |swresample|
         swresample.source_files = 'FFmpeg/include/libswresample/*.h' 
         swresample.public_header_files = 'FFmpeg/include/libswresample/*.h'  
       end 
