@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOFFMpegLib.git", :tag => s.version.to_s }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "contains/FFmpeg/include/**/*.h"
+  s.source_files  = "contains/FFmpeg/include/**/*.h","contains/libxvidcore/include/xvid.h","contains/x264/include/*.h"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.header_mappings_dir = "contains/FFmpeg/include"
   s.preserve_paths = "contains/FFmpeg/**/**"
-  s.vendored_libraries = "contains/FFmpeg/lib/libavcodec.a","contains/FFmpeg/lib/libavformat.a","contains/FFmpeg/lib/libavutil.a","contains/FFmpeg/lib/libswscale.a","contains/FFmpeg/lib/libswresample.a","contains/x264/lib/libx264.a"
+  s.vendored_libraries = "contains/FFmpeg/lib/libavcodec.a","contains/FFmpeg/lib/libavformat.a","contains/FFmpeg/lib/libavutil.a","contains/FFmpeg/lib/libswscale.a","contains/FFmpeg/lib/libswresample.a","contains/x264/lib/libx264.a","contains/libxvidcore/lib/libxvidcore.a"
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.frameworks = ["CoreMedia", "AVFoundation","AudioToolbox","VideoToolbox"]
   s.libraries = ["c", "c++","z","iconv","bz2"]
