@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.author             = { "PangDu" => "xian312117@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "13.0"
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = "13.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOFFMpegLib.git", :tag => s.version.to_s }
@@ -62,7 +61,12 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
    s.requires_arc = true
    s.static_framework = true
-   s.xcconfig = { 'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/FFmpeg/include/**/*.h"',
-                  'LIBRARY_SEARCH_PATHS'=> '"$(SDKROOT)/FFmpeg/lib"'
-  }
+   s.pod_target_xcconfig = {
+     'HEADER_SEARCH_PATHS' => '$(inherited) "$(PODS_TARGET_SRCROOT)/FFmpeg/include"',
+     'LIBRARY_SEARCH_PATHS' => '$(inherited) "$(PODS_TARGET_SRCROOT)/FFmpeg/lib"'
+   }
+   s.user_target_xcconfig = {
+     'HEADER_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}/AFOFFMpegLib/FFmpeg/include"',
+     'LIBRARY_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}/AFOFFMpegLib/FFmpeg/lib"'
+   }
 end
